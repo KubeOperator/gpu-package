@@ -1,0 +1,12 @@
+resource: gpu_repo_1.0
+version: 1.0
+components:
+  kubernetes: _
+  etcd: _
+  docker: _
+images:
+  - name: nvidia/k8s-device-plugin
+    tag: 1.0.0-beta
+vars:
+  repo_port: 9081
+  registry_port: 9091
